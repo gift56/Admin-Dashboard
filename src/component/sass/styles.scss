@@ -37,6 +37,7 @@
     justify-content: space-between;
     height: calc(3.5rem + 1.5rem);
     padding-left: 0;
+    padding-right: 0;
     .headerTitle {
         h2 {
             font-size: 24px;
@@ -58,8 +59,8 @@
             align-items: center;
             gap: 5px;
             position: relative;
-            &::before{
-                content: '';
+            &::before {
+                content: "";
                 position: absolute;
                 left: -70px;
                 width: 2px;
@@ -77,6 +78,11 @@
         }
     }
 }
-.ReferralsArea{
+.ReferralsArea {
     background: $headerBg;
+    border: 1px solid $beforeBg;
+    border-radius: 8px;
+    h4{
+        color: $headerColor;
+    }
 }

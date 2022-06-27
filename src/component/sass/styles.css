@@ -26,6 +26,13 @@
   padding: 10px 28px;
 }
 
+.Card {
+  background-color: white;
+  min-height: 620px;
+  margin-top: 20px;
+  padding: 2rem;
+}
+
 .navBar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,6 +94,7 @@
           justify-content: space-between;
   height: calc(3.5rem + 1.5rem);
   padding-left: 0;
+  padding-right: 0;
 }
 
 .header .headerTitle h2 {
@@ -129,7 +137,7 @@
 }
 
 .header .images .profileArea::before {
-  content: '';
+  content: "";
   position: absolute;
   left: -70px;
   width: 2px;
@@ -148,5 +156,11 @@
 
 .ReferralsArea {
   background: #f7f8fc;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+}
+
+.ReferralsArea h4 {
+  color: #252733;
 }
 /*# sourceMappingURL=styles.css.map */
