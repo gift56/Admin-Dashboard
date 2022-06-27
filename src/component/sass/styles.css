@@ -33,6 +33,7 @@
   background-color: white;
   margin-top: 20px;
   padding: 2rem;
+  border-radius: 8px;
 }
 
 .navBar {
@@ -329,15 +330,17 @@
 }
 
 .ChartBox {
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
   -webkit-column-gap: 2rem;
           column-gap: 2rem;
+  margin-bottom: 10px;
 }
 
 .ChartBox .boxes {
@@ -371,5 +374,56 @@
   font-weight: 700;
   padding-bottom: 12px;
   color: #252733;
+}
+
+.graphArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.graphArea .graph {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+.graphArea .graph .graphText h3 {
+  color: #252733;
+  font-size: 19px;
+}
+
+.graphArea .graph .graphText p {
+  color: #9fa2b4;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.graphArea .graph .graphCodination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 120px;
+  margin-bottom: 30px;
+}
+
+.graphArea .graph .graphCodination p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  gap: 6px;
+  color: #9fa2b4;
+  line-height: 18px;
+  font-size: 12px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */

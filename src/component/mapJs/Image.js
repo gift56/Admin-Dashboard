@@ -12,6 +12,7 @@ import smilingBoy from '../images/smiling.svg'
 import searchIcon from '../images/searchIcon.svg'
 import Graph from '../images/graph.svg'
 import Plus from '../images/plus.svg'
+import Minus from '../images/minus.svg'
 import NewProfile from '../images/NewProfile.svg'
 
 const Images =
@@ -31,6 +32,7 @@ const Images =
     smilingBoy,
     Graph,
     Plus,
+    Minus,
     NewProfile
 }
 

@@ -31,6 +31,41 @@ const Chart = () => {
                     <p>64</p>
                 </div>
             </div>
+            <div className="graphArea Card">
+                <div className="graph">
+                    <div className="graphText">
+                        <h3 className="graphTitle">Today’s trends</h3>
+                        <p className="graphDate">as of 25 May 2019, 09:41 PM</p>
+                    </div>
+                    <div className="graphCodination">
+                        <p><img src={Images.Minus} alt="" /> Toda<br />y</p>
+                        <p><img src={Images.Minus} alt="" />Yesterda<br />y</p>
+                    </div>
+                    <img src={Images.Graph} alt="" className="graphImg" />
+                </div>
+                <div className="graphRates">
+                    <div className="rates">
+                        <h4>Resolved</h4>
+                        <p>449</p>
+                    </div>
+                    <div className="rates">
+                        <h4>Resolved</h4>
+                        <p>449</p>
+                    </div>
+                    <div className="rates">
+                        <h4>Resolved</h4>
+                        <p>449</p>
+                    </div>
+                    <div className="rates">
+                        <h4>Resolved</h4>
+                        <p>449</p>
+                    </div>
+                    <div className="rates">
+                        <h4>Resolved</h4>
+                        <p>449</p>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }

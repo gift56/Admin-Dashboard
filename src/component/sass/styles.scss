@@ -185,10 +185,11 @@
     }
 }
 .ChartBox {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    grid-template-columns: repeat(4, 1fr);
     column-gap: 2rem;
+    margin-bottom: 10px;
     .boxes {
         border: 1px solid $beforeBg;
         border-radius: 8px;
@@ -214,6 +215,40 @@
             font-weight: 700;
             padding-bottom: 12px;
             color: $headerColor;
+        }
+    }
+}
+.graphArea {
+    display: flex;
+    flex-wrap: wrap;
+    .graph {
+        flex-basis: 70%;
+        .graphText {
+            h3 {
+                color: $headerColor;
+                font-size: 19px;
+            }
+            p {
+                color: $navBg;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+        .graphCodination {
+            display: flex;
+            column-gap: 30px;
+            justify-content: flex-end;
+            margin-right: 120px;
+            margin-bottom: 30px;
+            p {
+                display: flex;
+                align-items: baseline;
+                gap: 6px;
+                color: $navBg;
+                line-height: 18px;
+                font-size: 12px;
+                cursor: pointer;
+            }
         }
     }
 }
