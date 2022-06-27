@@ -41,7 +41,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 90px;
+  row-gap: 30px;
   width: 254px;
   min-height: 100vh;
   background: #363740;
@@ -56,6 +56,7 @@
       -ms-flex-align: center;
           align-items: center;
   gap: 0.28rem;
+  height: 8vh;
   cursor: pointer;
 }
 
@@ -71,7 +72,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  row-gap: 25px;
+  row-gap: 10px;
+  width: 252px;
+  -webkit-transform: translateX(-18px);
+          transform: translateX(-18px);
 }
 
 .navBar .navItems .navList {
@@ -80,6 +84,19 @@
   display: flex;
   color: #a4a6b3;
   gap: 1rem;
+  width: 100%;
+  padding: 10px 0;
+  padding-left: 20px;
+}
+
+.navBar .navItems .navList:hover {
+  background-color: #9fa2b4;
+  color: white;
+  cursor: pointer;
+}
+
+.navBar .secondnavItems {
+  margin-top: 30px;
 }
 
 .header {
