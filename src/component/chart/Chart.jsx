@@ -49,20 +49,20 @@ const Chart = () => {
                         <p>449</p>
                     </div>
                     <div className="rates">
-                        <h4>Resolved</h4>
-                        <p>449</p>
+                        <h4>Received</h4>
+                        <p>426</p>
                     </div>
                     <div className="rates">
-                        <h4>Resolved</h4>
-                        <p>449</p>
+                        <h4>Average first response time</h4>
+                        <p>33m</p>
                     </div>
                     <div className="rates">
-                        <h4>Resolved</h4>
-                        <p>449</p>
+                        <h4>Average response time</h4>
+                        <p>3h 8m</p>
                     </div>
                     <div className="rates">
-                        <h4>Resolved</h4>
-                        <p>449</p>
+                        <h4>Resolution within SLA</h4>
+                        <p>94%</p>
                     </div>
                 </div>
             </div>

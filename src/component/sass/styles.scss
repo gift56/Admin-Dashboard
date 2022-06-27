@@ -220,9 +220,12 @@
 }
 .graphArea {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0;
     .graph {
         flex-basis: 70%;
+        padding: 2rem;
         .graphText {
             h3 {
                 color: $headerColor;
@@ -248,6 +251,32 @@
                 line-height: 18px;
                 font-size: 12px;
                 cursor: pointer;
+            }
+        }
+    }
+    .graphRates {
+        flex-basis: 30%;
+        width: 100%;
+        border-left: 1px solid $beforeBg;
+        .rates {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            border-bottom: 1px solid $beforeBg;
+            &:last-child {
+                border-bottom: none;
+            }
+            h4 {
+                font-size: 16px;
+                font-weight: 700;
+                color: $navBg;
+            }
+            p{
+                color: $headerColor;
+                font-size: 24px;
+                font-weight: 700;
             }
         }
     }

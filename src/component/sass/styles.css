@@ -380,13 +380,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 0;
 }
 
 .graphArea .graph {
   -ms-flex-preferred-size: 70%;
       flex-basis: 70%;
+  padding: 2rem;
 }
 
 .graphArea .graph .graphText h3 {
@@ -425,5 +430,46 @@
   line-height: 18px;
   font-size: 12px;
   cursor: pointer;
+}
+
+.graphArea .graphRates {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  width: 100%;
+  border-left: 1px solid #dfe0eb;
+}
+
+.graphArea .graphRates .rates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid #dfe0eb;
+}
+
+.graphArea .graphRates .rates:last-child {
+  border-bottom: none;
+}
+
+.graphArea .graphRates .rates h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #9fa2b4;
+}
+
+.graphArea .graphRates .rates p {
+  color: #252733;
+  font-size: 24px;
+  font-weight: 700;
 }
 /*# sourceMappingURL=styles.css.map */
