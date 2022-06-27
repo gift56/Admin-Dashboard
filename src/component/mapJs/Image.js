@@ -5,11 +5,13 @@ import transactionIcon from '../images/transactionIcon.svg'
 import payoutIcon from '../images/payoutIcon.svg'
 import homeIcon from '../images/homeIcon.svg'
 import settingIcon from '../images/settingsIcon.svg'
-import notificationIcon from '../images/notification.svg';
-import profileImg from '../images/profileImg.svg';
-import editImg from '../images/editProfile.svg';
-import smilingBoy from '../images/smiling.svg';
-import searchIcon from '../images/searchIcon.svg';
+import notificationIcon from '../images/notification.svg'
+import profileImg from '../images/profileImg.svg'
+import editImg from '../images/editProfile.svg'
+import smilingBoy from '../images/smiling.svg'
+import searchIcon from '../images/searchIcon.svg'
+import Graph from '../images/graph.svg'
+import Plus from '../images/plus.svg'
 
 const Images =
 {
@@ -25,7 +27,9 @@ const Images =
     profileImg,
     searchIcon,
     editImg,
-    smilingBoy
+    smilingBoy,
+    Graph,
+    Plus
 }
 
 
