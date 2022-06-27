@@ -1,5 +1,8 @@
 .flexArea {
     flex: 5;
+    background: $headerBg;
+    border: 1px solid $beforeBg;
+    border-radius: 8px;
 }
 .paddingCon {
     padding: 10px 28px;

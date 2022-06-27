@@ -20,6 +20,9 @@
   -webkit-box-flex: 5;
       -ms-flex: 5;
           flex: 5;
+  background: #f7f8fc;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
 }
 
 .paddingCon {
@@ -173,12 +176,6 @@
   text-align: end;
   width: 60px;
   color: #252733;
-}
-
-.ReferralsArea {
-  background: #f7f8fc;
-  border: 1px solid #dfe0eb;
-  border-radius: 8px;
 }
 
 .ReferralsArea h4 {
