@@ -301,11 +301,17 @@
                     color: $navBg;
                     font-size: 12px;
                     font-weight: 400;
-                    span{
+                    span {
                         color: $headerColor;
                         font-weight: 600;
                     }
                 }
+            }
+            .details {
+                color: $chartBox;
+                font-weight: 600;
+                text-align: end;
+                line-height: 20px;
             }
         }
     }

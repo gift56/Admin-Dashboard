@@ -513,4 +513,11 @@
   color: #252733;
   font-weight: 600;
 }
+
+.ticketArea .ticketCard .ticketHeading .details {
+  color: #3751ff;
+  font-weight: 600;
+  text-align: end;
+  line-height: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
