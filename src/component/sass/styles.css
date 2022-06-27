@@ -16,6 +16,16 @@
       grid-template-columns: 255px 1fr;
 }
 
+.flexArea {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+.paddingCon {
+  padding: 10px 28px;
+}
+
 .navBar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,7 +35,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 90px;
-  width: 225px;
+  width: 254px;
   min-height: 100vh;
   background: #363740;
   padding: 20px 20px;
@@ -75,8 +85,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 10px 28px;
   height: calc(3.5rem + 1.5rem);
+  padding-left: 0;
 }
 
 .header .headerTitle h2 {
@@ -134,5 +144,9 @@
   text-align: end;
   width: 60px;
   color: #252733;
+}
+
+.ReferralsArea {
+  background: #f7f8fc;
 }
 /*# sourceMappingURL=styles.css.map */

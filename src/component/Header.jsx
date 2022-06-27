@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = ({ title, firstImg, secondImg, names, profileImg }) => {
     return (
-        <header className='header'>
+        <header className='header paddingCon'>
             <div className="headerTitle">
                 <h2>{title}</h2>
             </div>
