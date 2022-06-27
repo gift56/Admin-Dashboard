@@ -100,3 +100,34 @@
         color: $headerColor;
     }
 }
+.editCard {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    .editProfile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 632px;
+        height: fit-content;
+        padding: 12px;
+        .text {
+            display: flex;
+            justify-content: left;
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: 19px;
+            font-weight: 700;
+            color: $headerColor;
+        }
+        .form {
+            width: 100%;
+            .formControl {
+                display: block;
+                padding: 10px 0;
+                background-color: red;
+            }
+        }
+    }
+}

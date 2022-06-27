@@ -7,6 +7,8 @@ import homeIcon from '../images/homeIcon.svg'
 import settingIcon from '../images/settingsIcon.svg'
 import notificationIcon from '../images/notification.svg';
 import profileImg from '../images/profileImg.svg';
+import editImg from '../images/editProfile.svg';
+import smilingBoy from '../images/smiling.svg';
 import searchIcon from '../images/searchIcon.svg';
 
 const Images =
@@ -21,7 +23,9 @@ const Images =
     settingIcon,
     notificationIcon,
     profileImg,
-    searchIcon
+    searchIcon,
+    editImg,
+    smilingBoy
 }
 
 
