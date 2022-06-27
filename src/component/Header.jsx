@@ -8,8 +8,8 @@ const Header = ({ title, firstImg, secondImg, names, profileImg }) => {
             </div>
             <div className="images">
                 <div className="headerImgs">
-                    <img src={firstImg} alt="" />
-                    <img src={secondImg} alt="" />
+                    {firstImg && <img src={firstImg} alt="" />}
+                    {secondImg && <img src={secondImg} alt="" />}
                 </div>
                 <div className="profileArea">
                     <p>{names}</p>

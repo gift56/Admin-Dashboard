@@ -14,10 +14,11 @@
     .navLogo {
         display: flex;
         align-items: center;
-        gap: 0.28rem;
+        gap: 0.5rem;
         height: 8vh;
         cursor: pointer;
         h4 {
+            font-size: 20px;
             color: $sideColor;
         }
     }
@@ -41,7 +42,7 @@
             }
         }
     }
-    .secondnavItems{
+    .secondnavItems {
         margin-top: 30px;
     }
 }
@@ -66,7 +67,9 @@
         .headerImgs {
             display: flex;
             align-items: center;
-            gap: 15px;
+            img {
+                margin-right: 20px;
+            }
         }
         .profileArea {
             display: flex;
