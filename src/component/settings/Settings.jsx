@@ -18,7 +18,7 @@ const Settings = () => {
                     <p className="text">Edit Profile</p>
                     <form action="" className="form">
                         <div className="formControl">
-                            <label htmlFor="editProfileImg" className="imgLabel">
+                            <label htmlFor="editProfile" className="imgLabel">
                                 <img src={Images.smilingBoy} alt="" className="profileImg" />
                                 <img src={Images.editImg} alt="" className="editPen" />
                             </label>

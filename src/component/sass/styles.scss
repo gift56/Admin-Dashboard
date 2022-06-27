@@ -8,7 +8,7 @@
     flex-direction: column;
     row-gap: 30px;
     width: 254px;
-    min-height: 100vh;
+    min-height: 100%;
     background: $sidebarBG;
     padding: 20px 20px;
     .navLogo {
@@ -124,9 +124,45 @@
         .form {
             width: 100%;
             .formControl {
-                display: block;
+                display: flex;
+                flex-direction: column;
                 padding: 10px 0;
-                background-color: red;
+                .imgLabel {
+                    display: flex;
+                    justify-content: center;
+                    position: relative;
+                    cursor: pointer;
+                    .profileImg {
+                        width: 120px;
+                    }
+                    .editPen {
+                        position: absolute;
+                        bottom: 0;
+                        right: 38%;
+                        width: 40px;
+                    }
+                }
+                .label {
+                    color: $black;
+                    font-size: 16px;
+                    font-weight: 600;
+                    margin-bottom: 6px;
+                }
+                input {
+                    border: 1px solid $borderColor;
+                    border-radius: 4px;
+                    padding: 0 10px;
+                    height: 40px;
+                    &::placeholder{
+                        color: $black;
+                        font-size: 15px;
+                        font-weight: 700;
+                    }
+                    &:focus {
+                        border: 2px solid $borderColor;
+                        outline: none;
+                    }
+                }
             }
         }
     }

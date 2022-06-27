@@ -46,7 +46,7 @@
           flex-direction: column;
   row-gap: 30px;
   width: 254px;
-  min-height: 100vh;
+  min-height: 100%;
   background: #363740;
   padding: 20px 20px;
 }
@@ -234,8 +234,78 @@
 }
 
 .editCard .editProfile .form .formControl {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 10px 0;
-  background-color: red;
+}
+
+.editCard .editProfile .form .formControl .imgLabel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.editCard .editProfile .form .formControl .imgLabel .profileImg {
+  width: 120px;
+}
+
+.editCard .editProfile .form .formControl .imgLabel .editPen {
+  position: absolute;
+  bottom: 0;
+  right: 38%;
+  width: 40px;
+}
+
+.editCard .editProfile .form .formControl .label {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.editCard .editProfile .form .formControl input {
+  border: 1px solid #52b6ec;
+  border-radius: 4px;
+  padding: 0 10px;
+  height: 40px;
+}
+
+.editCard .editProfile .form .formControl input::-webkit-input-placeholder {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.editCard .editProfile .form .formControl input:-ms-input-placeholder {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.editCard .editProfile .form .formControl input::-ms-input-placeholder {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.editCard .editProfile .form .formControl input::placeholder {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.editCard .editProfile .form .formControl input:focus {
+  border: 2px solid #52b6ec;
+  outline: none;
 }
 /*# sourceMappingURL=styles.css.map */
