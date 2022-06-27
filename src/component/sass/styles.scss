@@ -95,6 +95,9 @@
         }
     }
 }
+.referralsCard {
+    min-height: 620px;
+}
 .ReferralsArea {
     h4 {
         color: $headerColor;
@@ -104,6 +107,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    min-height: 620px;
     .editProfile {
         display: flex;
         justify-content: center;
@@ -177,6 +181,39 @@
                     }
                 }
             }
+        }
+    }
+}
+.ChartBox {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    .boxes {
+        border: 1px solid $beforeBg;
+        border-radius: 8px;
+        width: 270px;
+        height: 164px;
+        text-align: center;
+        transition: all 300ms ease;
+        &:hover {
+            border: 1px solid $chartBox;
+            cursor: pointer;
+            h3,
+            p {
+                color: $chartBox;
+            }
+        }
+        h3 {
+            font-size: 19px;
+            color: $navBg;
+            margin-bottom: 12px;
+        }
+        p {
+            font-size: 40px;
+            font-weight: 700;
+            padding-bottom: 12px;
+            color: $headerColor;
         }
     }
 }

@@ -31,7 +31,6 @@
 
 .Card {
   background-color: white;
-  min-height: 620px;
   margin-top: 20px;
   padding: 2rem;
 }
@@ -178,6 +177,10 @@
   color: #252733;
 }
 
+.referralsCard {
+  min-height: 620px;
+}
+
 .ReferralsArea h4 {
   color: #252733;
 }
@@ -192,6 +195,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  min-height: 620px;
 }
 
 .editCard .editProfile {
@@ -322,5 +326,50 @@
 .editCard .editProfile .form .formControl button:hover {
   opacity: 0.8;
   cursor: pointer;
+}
+
+.ChartBox {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
+}
+
+.ChartBox .boxes {
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  width: 270px;
+  height: 164px;
+  text-align: center;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.ChartBox .boxes:hover {
+  border: 1px solid #3751ff;
+  cursor: pointer;
+}
+
+.ChartBox .boxes:hover h3,
+.ChartBox .boxes:hover p {
+  color: #3751ff;
+}
+
+.ChartBox .boxes h3 {
+  font-size: 19px;
+  color: #9fa2b4;
+  margin-bottom: 12px;
+}
+
+.ChartBox .boxes p {
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 12px;
+  color: #252733;
 }
 /*# sourceMappingURL=styles.css.map */

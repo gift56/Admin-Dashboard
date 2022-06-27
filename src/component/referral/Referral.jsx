@@ -13,7 +13,7 @@ const Referral = () => {
                 names='John Kent'
                 profileImg={Images.profileImg}
             />
-            <div className='Card'>
+            <div className='Card referralsCard'>
                 <h4>All referrals</h4>
             </div>
         </section>
