@@ -1,12 +1,12 @@
 import React from 'react';
 import '../sass/styles.css'
 import Adminicon from '../images/adminLogo.png'
-import chartIcon from '../images/chartIcon.png'
-import referralIcon from '../images/referralsIcon.png'
-import transactionIcon from '../images/transactionIcon.png'
-import payoutIcon from '../images/payoutIcon.png'
-import homeIcon from '../images/homeIcon.png'
-import settingIcon from '../images/settingsIcon.png'
+import chartIcon from '../images/chartIcon.svg'
+import referralIcon from '../images/referralIcon.svg'
+import transactionIcon from '../images/transactionIcon.svg'
+import payoutIcon from '../images/payoutIcon.svg'
+import homeIcon from '../images/homeIcon.svg'
+import settingIcon from '../images/settingsIcon.svg'
 
 const Sidebar = () => {
     document.title = 'Admin Dashboard'
