@@ -1,10 +1,13 @@
 import React from 'react'
+import Images from '../mapJs/Image'
+import Header from '../Header'
+import '../sass/styles.css'
 
 const Referral = () => {
     return (
-        <div>
+        <section className='ReferralsArea flexArea'>
 
-        </div>
+        </section>
     )
 }
 

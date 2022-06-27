@@ -6,3 +6,7 @@
     text-decoration: none;
     font-family: "Poppins", sans-serif;
 }
+.App {
+    display: grid;
+    grid-template-columns: 255px 1fr;
+}
