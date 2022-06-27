@@ -5,6 +5,9 @@ import transactionIcon from '../images/transactionIcon.svg'
 import payoutIcon from '../images/payoutIcon.svg'
 import homeIcon from '../images/homeIcon.svg'
 import settingIcon from '../images/settingsIcon.svg'
+import notificationIcon from '../images/notification.svg';
+import profileImg from '../images/profileImg.svg';
+import searchIcon from '../images/searchIcon.svg';
 
 const Images =
 {
@@ -15,7 +18,10 @@ const Images =
     transactionIcon,
     payoutIcon,
     homeIcon,
-    settingIcon
+    settingIcon,
+    notificationIcon,
+    profileImg,
+    searchIcon
 }
 
 
