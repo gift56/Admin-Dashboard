@@ -223,6 +223,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
+    margin-bottom: 20px;
     .graph {
         flex-basis: 70%;
         padding: 2rem;
@@ -273,10 +274,38 @@
                 font-weight: 700;
                 color: $navBg;
             }
-            p{
+            p {
                 color: $headerColor;
                 font-size: 24px;
                 font-weight: 700;
+            }
+        }
+    }
+}
+.ticketArea {
+    display: flex;
+    justify-content: space-between;
+    .ticketCard {
+        width: 546px;
+        height: 336px;
+        padding: 0;
+        .ticketHeading {
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+            .title {
+                .ticketTitle {
+                    color: $headerColor;
+                }
+                p {
+                    color: $navBg;
+                    font-size: 12px;
+                    font-weight: 400;
+                    span{
+                        color: $headerColor;
+                        font-weight: 600;
+                    }
+                }
             }
         }
     }

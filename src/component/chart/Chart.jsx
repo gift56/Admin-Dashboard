@@ -66,6 +66,66 @@ const Chart = () => {
                     </div>
                 </div>
             </div>
+            <div className="ticketArea">
+                <div className="ticketCard Card">
+                    <div className="ticketHeading">
+                        <div className="title">
+                            <h3 className="ticketTitle">Unresolved tickets</h3>
+                            <p>Group: <span>Support</span></p>
+                        </div>
+                        <div className="details">
+                            <p>View <br /> details</p>
+                        </div>
+                    </div>
+                    <div className="infoItems">
+                        <div className="infoItem">
+                            <h4>Waiting on Feature Request</h4>
+                            <p>4238</p>
+                        </div>
+                        <div className="infoItem">
+                            <h4>Waiting on Feature Request</h4>
+                            <p>4238</p>
+                        </div>
+                        <div className="infoItem">
+                            <h4>Waiting on Feature Request</h4>
+                            <p>4238</p>
+                        </div>
+                        <div className="infoItem">
+                            <h4>Waiting on Feature Request</h4>
+                            <p>4238</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="ticketCard Card">
+                    <div className="ticketHeading">
+                        <div className="title">
+                            <h3 className="ticketTitle">Unresolved tickets</h3>
+                            <p>Group: <span>Support</span></p>
+                        </div>
+                        <div className="details">
+                            <p>View details</p>
+                        </div>
+                    </div>
+                    <div className="infoItems">
+                        <div className="infoItem">
+                            <h4>Waiting on Feature Request</h4>
+                            <p>4238</p>
+                        </div>
+                        <div className="infoItem">
+                            <h4>Waiting on Feature Request</h4>
+                            <p>4238</p>
+                        </div>
+                        <div className="infoItem">
+                            <h4>Waiting on Feature Request</h4>
+                            <p>4238</p>
+                        </div>
+                        <div className="infoItem">
+                            <h4>Waiting on Feature Request</h4>
+                            <p>4238</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }

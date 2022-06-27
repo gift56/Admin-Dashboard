@@ -386,6 +386,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 0;
+  margin-bottom: 20px;
 }
 
 .graphArea .graph {
@@ -471,5 +472,45 @@
   color: #252733;
   font-size: 24px;
   font-weight: 700;
+}
+
+.ticketArea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ticketArea .ticketCard {
+  width: 546px;
+  height: 336px;
+  padding: 0;
+}
+
+.ticketArea .ticketCard .ticketHeading {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ticketArea .ticketCard .ticketHeading .title .ticketTitle {
+  color: #252733;
+}
+
+.ticketArea .ticketCard .ticketHeading .title p {
+  color: #9fa2b4;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.ticketArea .ticketCard .ticketHeading .title p span {
+  color: #252733;
+  font-weight: 600;
 }
 /*# sourceMappingURL=styles.css.map */
