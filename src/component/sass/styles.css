@@ -308,4 +308,19 @@
   border: 2px solid #52b6ec;
   outline: none;
 }
+
+.editCard .editProfile .form .formControl button {
+  width: 230px;
+  padding: 8px 20px;
+  background-color: #ff9900;
+  border: 1px solid #ff9900;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.editCard .editProfile .form .formControl button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */
