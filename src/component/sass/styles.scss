@@ -389,3 +389,32 @@
         }
     }
 }
+.transactionArea {
+    padding: 0;
+    .transactionHeader {
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        h3 {
+            font-size: 19px;
+            color: $headerColor;
+        }
+        .headerSorts {
+            display: flex;
+            gap: 2rem;
+            .sort,
+            .filter {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                span {
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: $spanColor;
+                }
+            }
+        }
+    }
+}

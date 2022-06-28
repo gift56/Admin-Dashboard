@@ -25,6 +25,11 @@ import user5 from '../images/user5.svg'
 import user6 from '../images/user6.svg'
 import user7 from '../images/user7.svg'
 import user8 from '../images/user8.svg'
+import right from '../images/right.svg'
+import left from '../images/left.svg'
+import funnel from '../images/funnel.svg'
+import dropDown from '../images/dropdownArrow.svg'
+
 
 const Images =
 {
@@ -55,7 +60,11 @@ const Images =
     user5,
     user6,
     user7,
-    user8
+    user8,
+    right,
+    left,
+    dropDown,
+    funnel
 }
 
 
