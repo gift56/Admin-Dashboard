@@ -52,6 +52,10 @@
   opacity: 0.8;
 }
 
+image {
+  max-width: 100%;
+}
+
 .navBar {
   display: -webkit-box;
   display: -ms-flexbox;
