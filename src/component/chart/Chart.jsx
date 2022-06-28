@@ -99,29 +99,38 @@ const Chart = () => {
                 <div className="ticketCard Card">
                     <div className="ticketHeading">
                         <div className="title">
-                            <h3 className="ticketTitle">Unresolved tickets</h3>
-                            <p>Group: <span>Support</span></p>
+                            <h3 className="ticketTitle">Tasks</h3>
+                            <p>Today</p>
                         </div>
                         <div className="details">
-                            <p>View details</p>
+                            <p>View all</p>
                         </div>
                     </div>
-                    <div className="infoItems">
+                    <div className="infoItems secondInfoItems">
                         <div className="infoItem">
-                            <h4>Waiting on Feature Request</h4>
-                            <p>4238</p>
+                            <h4>Create new task</h4>
+                            <img src={Images.Plus} alt="" />
                         </div>
                         <div className="infoItem">
-                            <h4>Waiting on Feature Request</h4>
-                            <p>4238</p>
+                            <div className="check">
+                                <input type="checkbox" name="finished" id="finished" className='checkBox' />
+                                <label htmlFor="finished">Finish ticket update</label>
+                            </div>
+                            <button className='btn urgentBtn'>Urgent</button>
                         </div>
                         <div className="infoItem">
-                            <h4>Waiting on Feature Request</h4>
-                            <p>4238</p>
+                            <div className="check">
+                                <input type="checkbox" name="create" id="create" className='checkBox' />
+                                <label htmlFor="create">Create new ticket example</label>
+                            </div>
+                            <button className='btn urgentBtn'>New</button>
                         </div>
                         <div className="infoItem">
-                            <h4>Waiting on Feature Request</h4>
-                            <p>4238</p>
+                            <div className="check">
+                                <input type="checkbox" name="update" id="update" className='checkBox' checked/>
+                                <label htmlFor="update">Update ticket report</label>
+                            </div>
+                            <button className='btn urgentBtn'>Default</button>
                         </div>
                     </div>
                 </div>

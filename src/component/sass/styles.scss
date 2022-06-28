@@ -296,7 +296,7 @@
             .title {
                 .ticketTitle {
                     color: $headerColor;
-                    margin-bottom: 10px;
+                    margin-bottom: 3px;
                 }
                 p {
                     color: $navBg;
@@ -333,6 +333,41 @@
                     color: $navBg;
                     font-size: 16px;
                     font-weight: 700;
+                }
+            }
+        }
+        .secondInfoItems {
+            .infoItem {
+                h4 {
+                    color: $h4Color;
+                }
+                .check {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    label {
+                        cursor: pointer;
+                        font-size: 14px;
+                        font-weight: 700;
+                    }
+                    .checkBox {
+                        border-radius: 50%;
+                        width: 1.3em;
+                        height: 1.3em;
+                        background-color: $textWhite;
+                        vertical-align: middle;
+                        border: 2px solid $h4Color;
+                        appearance: none;
+                        -webkit-appearance: none;
+                        outline: none;
+                        &:checked {
+                            background: url("../images/checkBox.svg");
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: cover;
+                            border: none;
+                        }
+                    }
                 }
             }
         }

@@ -14,6 +14,7 @@ import Graph from '../images/graph.svg'
 import Plus from '../images/plus.svg'
 import Minus from '../images/minus.svg'
 import NewProfile from '../images/NewProfile.svg'
+import checkBox from '../images/checkBox.svg'
 
 const Images =
 {
@@ -33,7 +34,8 @@ const Images =
     Graph,
     Plus,
     Minus,
-    NewProfile
+    NewProfile,
+    checkBox
 }
 
 
