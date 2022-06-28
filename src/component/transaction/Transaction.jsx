@@ -28,13 +28,13 @@ const Transaction = () => {
                     </div>
                 </div>
                 <div className="transactionTable">
-                        {/* <div className="tableHeading">
-                            <h3>Ticket details</h3>
-                            <h3>Ticket details</h3>
-                            <h3>Ticket details</h3>
-                            <h3>Ticket details</h3>
-                        </div> */}
-                        {/* <div className="tableData">
+                    <div className="tableHeading">
+                        <h3>Ticket details</h3>
+                        <h3>Customer name</h3>
+                        <h3>Date</h3>
+                        <h3>Priority</h3>
+                    </div>
+                    {/* <div className="tableData">
                             <div className="data">
                                 <div className="dataProfile">
                                     <img src={Images.user1} alt="" />
@@ -45,7 +45,7 @@ const Transaction = () => {
                                 </div>
                             </div>
                         </div> */}
-                    </div>
+                </div>
             </div>
         </section>
     )
