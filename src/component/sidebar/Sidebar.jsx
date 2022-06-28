@@ -1,6 +1,7 @@
 import React from 'react';
 import '../sass/styles.css'
 import sidebarContent from '../mapJs/Sidebar';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
     document.title = 'Admin Dashboard';
@@ -15,16 +16,20 @@ const Sidebar = () => {
                     <ul className="navItems">
                         {content.navOne.map((link, index) => (
                             <li className="navList" key={index}>
-                                <img src={link.image} alt="" />
-                                <span>{link.text}</span>
+                                <Link to={link.route}>
+                                    <img src={link.image} alt="" />
+                                    <span>{link.text}</span>
+                                </Link>
                             </li>
                         ))}
                     </ul>
                     <ul className="secondnavItems navItems" >
                         {content.navTwo.map((secondlink, index) => (
                             <li className="navList" key={index}>
-                                <img src={secondlink.image} alt="" />
-                                <span>{secondlink.text}</span>
+                                <Link to={secondlink.route}>
+                                    <img src={secondlink.image} alt="" />
+                                    <span>{secondlink.text}</span>
+                                </Link>
                             </li>
                         ))}
                     </ul>

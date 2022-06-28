@@ -9,29 +9,36 @@ const sidebarContent = [
         navOne: [
             {
                 image: Images.chartIcon,
-                text: "Charts"
+                text: "Charts",
+                route:"chart"
             },
             {
                 image: Images.referralIcon,
-                text: "Referrals"
+                text: "Referrals",
+                route:"referral"
+
             },
             {
                 image: Images.transactionIcon,
-                text: "Transcations"
+                text: "Transcations",
+                route:"transaction"
             },
             {
                 image: Images.payoutIcon,
-                text: "Payouts"
+                text: "Payouts",
+                route:"payout"
             }
         ],
         navTwo: [
             {
                 image: Images.settingIcon,
-                text: "Settings"
+                text: "Settings",
+                route:"/"
             },
             {
                 image: Images.homeIcon,
-                text: "Home"
+                text: "Home",
+                route:"/"
             },
         ]
     }

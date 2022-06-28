@@ -28,7 +28,8 @@
         row-gap: 10px;
         width: 252px;
         transform: translateX(-18px);
-        .navList {
+        .navList,
+        a {
             display: flex;
             color: $sideColor;
             gap: 1rem;

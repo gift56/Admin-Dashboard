@@ -112,7 +112,8 @@ img {
           transform: translateX(-18px);
 }
 
-.navBar .navItems .navList {
+.navBar .navItems .navList,
+.navBar .navItems a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -123,7 +124,8 @@ img {
   padding-left: 20px;
 }
 
-.navBar .navItems .navList:hover {
+.navBar .navItems .navList:hover,
+.navBar .navItems a:hover {
   background-color: #9fa2b4;
   color: white;
   cursor: pointer;
