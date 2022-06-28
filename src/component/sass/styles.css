@@ -485,7 +485,7 @@
 
 .ticketArea .ticketCard {
   width: 546px;
-  height: 310px;
+  height: 350px;
   padding: 0;
 }
 
@@ -501,6 +501,7 @@
 
 .ticketArea .ticketCard .ticketHeading .title .ticketTitle {
   color: #252733;
+  margin-bottom: 10px;
 }
 
 .ticketArea .ticketCard .ticketHeading .title p {

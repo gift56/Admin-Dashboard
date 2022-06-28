@@ -83,16 +83,16 @@ const Chart = () => {
                             <p>4238</p>
                         </div>
                         <div className="infoItem">
-                            <h4>Waiting on Feature Request</h4>
-                            <p>4238</p>
+                            <h4>Awaiting Customer Response</h4>
+                            <p>1005</p>
                         </div>
                         <div className="infoItem">
-                            <h4>Waiting on Feature Request</h4>
-                            <p>4238</p>
+                            <h4>Awaiting Developer Fix</h4>
+                            <p>914</p>
                         </div>
                         <div className="infoItem">
-                            <h4>Waiting on Feature Request</h4>
-                            <p>4238</p>
+                            <h4>Pending</h4>
+                            <p>281</p>
                         </div>
                     </div>
                 </div>
