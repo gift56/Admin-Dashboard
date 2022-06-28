@@ -1,4 +1,5 @@
 import React from 'react'
+import Chartbox from '../mapJs/Chartbox'
 import Images from '../mapJs/Image'
 import Header from '../Header'
 import '../sass/styles.css'
@@ -14,22 +15,12 @@ const Chart = () => {
                 profileImg={Images.NewProfile}
             />
             <div className="ChartBox">
-                <div className="Card boxes">
-                    <h3>Unresolved</h3>
-                    <p>60</p>
-                </div>
-                <div className="Card boxes">
-                    <h3>Overdue</h3>
-                    <p>16</p>
-                </div>
-                <div className="Card boxes">
-                    <h3>Open</h3>
-                    <p>43</p>
-                </div>
-                <div className="Card boxes">
-                    <h3>On hold</h3>
-                    <p>64</p>
-                </div>
+                {Chartbox.map((box, index) => (
+                    <div className="Card boxes" key={index}>
+                        <h3>{box.text}</h3>
+                        <p>{box.page}</p>
+                    </div>
+                ))}
             </div>
             <div className="graphArea Card">
                 <div className="graph">
@@ -127,7 +118,7 @@ const Chart = () => {
                         </div>
                         <div className="infoItem">
                             <div className="check">
-                                <input type="checkbox" name="update" id="update" className='checkBox' defaultChecked/>
+                                <input type="checkbox" name="update" id="update" className='checkBox' defaultChecked />
                                 <label htmlFor="update">Update ticket report</label>
                             </div>
                             <button className='btn DefaultBtn'>Default</button>
