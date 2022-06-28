@@ -436,6 +436,7 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: 10px 2rem;
+                border-bottom: 1px solid $beforeBg;
                 .dataProfile {
                     display: flex;
                     align-items: center;
@@ -458,6 +459,13 @@
                     display: flex;
                     justify-content: end;
                     align-items: center;
+                    button{
+                        background-color: $HighColor;
+                        border: 1px solid $HighColor;
+                    }
+                }
+                .sideIcon{
+                    cursor: pointer;
                 }
                 .userUpdate,
                 .customerName,
