@@ -369,6 +369,19 @@
                         }
                     }
                 }
+                .urgentBtn {
+                    background-color: $urgentBg;
+                    border: 1px solid $urgentBg;
+                }
+                .NewBtn {
+                    background-color: $btnNew;
+                    border: 1px solid $btnNew;
+                }
+                .DefaultBtn {
+                    background-color: $defaultbg;
+                    border: 1px solid $defaultbg;
+                    color: $navBg;
+                }
             }
         }
     }

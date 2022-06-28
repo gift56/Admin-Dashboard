@@ -123,14 +123,14 @@ const Chart = () => {
                                 <input type="checkbox" name="create" id="create" className='checkBox' />
                                 <label htmlFor="create">Create new ticket example</label>
                             </div>
-                            <button className='btn urgentBtn'>New</button>
+                            <button className='btn NewBtn'>New</button>
                         </div>
                         <div className="infoItem">
                             <div className="check">
                                 <input type="checkbox" name="update" id="update" className='checkBox' checked/>
                                 <label htmlFor="update">Update ticket report</label>
                             </div>
-                            <button className='btn urgentBtn'>Default</button>
+                            <button className='btn DefaultBtn'>Default</button>
                         </div>
                     </div>
                 </div>
