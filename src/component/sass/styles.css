@@ -485,7 +485,7 @@
 
 .ticketArea .ticketCard {
   width: 546px;
-  height: 336px;
+  height: 310px;
   padding: 0;
 }
 
@@ -525,6 +525,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -534,5 +537,16 @@
 
 .ticketArea .ticketCard .infoItems .infoItem:last-child {
   border: none;
+}
+
+.ticketArea .ticketCard .infoItems .infoItem h4 {
+  font-size: 16px;
+  color: #252733;
+}
+
+.ticketArea .ticketCard .infoItems .infoItem p {
+  color: #9fa2b4;
+  font-size: 16px;
+  font-weight: 700;
 }
 /*# sourceMappingURL=styles.css.map */

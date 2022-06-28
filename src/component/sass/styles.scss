@@ -287,7 +287,7 @@
     justify-content: space-between;
     .ticketCard {
         width: 546px;
-        height: 336px;
+        height: 310px;
         padding: 0;
         .ticketHeading {
             padding: 2rem;
@@ -317,11 +317,21 @@
         .infoItems {
             .infoItem {
                 display: flex;
+                align-items: center;
                 justify-content: space-between;
                 padding: 1rem 2rem;
                 border-bottom: 1px solid;
-                &:last-child{
+                &:last-child {
                     border: none;
+                }
+                h4 {
+                    font-size: 16px;
+                    color: $headerColor;
+                }
+                p {
+                    color: $navBg;
+                    font-size: 16px;
+                    font-weight: 700;
                 }
             }
         }
