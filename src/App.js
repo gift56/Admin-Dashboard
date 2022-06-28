@@ -1,13 +1,13 @@
 import React from "react";
 import Sidebar from "./component/sidebar/Sidebar";
-import Transaction from "./component/transaction/Transaction";
+import Payout from "./component/payout/Payout";
 import './component/sass/styles.css'
 
 function App() {
   return (
     <div className="App">
       <Sidebar />
-      <Transaction />
+      <Payout />
     </div>
   );
 }

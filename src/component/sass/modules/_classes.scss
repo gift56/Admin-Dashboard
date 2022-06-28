@@ -31,13 +31,13 @@ img{
 }
 .low{
     button{
-        background-color: $butttonBg !important;
-        border: 1px solid $butttonBg !important;
+        background-color: $urgentBg !important;
+        border: 1px solid $urgentBg !important;
     }
 }
 .normal{
     button{
-        background-color: $borderColor !important;
-        border: 1px solid $borderColor !important;
+        background-color: $btnNew !important;
+        border: 1px solid $btnNew !important;
     }
 }
