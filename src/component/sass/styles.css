@@ -731,6 +731,11 @@ image {
   text-align: center;
 }
 
+.transactionArea .transactionTable .tableData .data .date p {
+  -webkit-transform: translateX(-5px);
+          transform: translateX(-5px);
+}
+
 .transactionArea .transactionTable .tableData .data .priority {
   width: 10%;
   display: -webkit-box;
@@ -742,5 +747,23 @@ image {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.transactionArea .transactionTable .tableData .data .userUpdate h4,
+.transactionArea .transactionTable .tableData .data .customerName h4,
+.transactionArea .transactionTable .tableData .data .date h4,
+.transactionArea .transactionTable .tableData .data .priority h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #252733;
+}
+
+.transactionArea .transactionTable .tableData .data .userUpdate p,
+.transactionArea .transactionTable .tableData .data .customerName p,
+.transactionArea .transactionTable .tableData .data .date p,
+.transactionArea .transactionTable .tableData .data .priority p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #c5c7cd;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -449,12 +449,30 @@
                 .date {
                     width: 23%;
                     text-align: center;
+                    p {
+                        transform: translateX(-5px);
+                    }
                 }
                 .priority {
                     width: 10%;
                     display: flex;
                     justify-content: end;
                     align-items: center;
+                }
+                .userUpdate,
+                .customerName,
+                .date,
+                .priority {
+                    h4 {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: $headerColor;
+                    }
+                    p {
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: $h4Color;
+                    }
                 }
             }
         }
