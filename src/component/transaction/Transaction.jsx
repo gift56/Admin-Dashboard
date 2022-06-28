@@ -31,7 +31,7 @@ const Transaction = () => {
                     <div className="tableHeading">
                         <h3>Ticket details</h3>
                         <h3>Customer name</h3>
-                        <h3>Date</h3>
+                        <h3 style={{width:"8%"}}>Date</h3>
                         <h3>Priority</h3>
                     </div>
                     <div className="tableData">

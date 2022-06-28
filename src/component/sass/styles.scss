@@ -422,7 +422,7 @@
             display: flex;
             justify-content: space-between;
             padding: 10px 2rem;
-            padding-right: 9rem;
+            padding-right: 120px;
             border-bottom: 2px solid $beforeBg;
             h3 {
                 color: $navBg;
@@ -435,6 +435,27 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                padding: 10px 2rem;
+                .dataProfile {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                }
+                .customerName {
+                    width: 16%;
+                    padding-left: 1.5rem;
+                    text-align: left;
+                }
+                .date {
+                    width: 23%;
+                    text-align: center;
+                }
+                .priority {
+                    width: 10%;
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+                }
             }
         }
     }

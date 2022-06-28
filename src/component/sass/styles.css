@@ -687,7 +687,7 @@ image {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 10px 2rem;
-  padding-right: 9rem;
+  padding-right: 120px;
   border-bottom: 2px solid #dfe0eb;
 }
 
@@ -707,5 +707,40 @@ image {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 10px 2rem;
+}
+
+.transactionArea .transactionTable .tableData .data .dataProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.transactionArea .transactionTable .tableData .data .customerName {
+  width: 16%;
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.transactionArea .transactionTable .tableData .data .date {
+  width: 23%;
+  text-align: center;
+}
+
+.transactionArea .transactionTable .tableData .data .priority {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */
