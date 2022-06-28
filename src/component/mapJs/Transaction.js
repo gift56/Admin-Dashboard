@@ -10,7 +10,8 @@ const Transactions = [
         dateProfile: "May 26, 2019",
         dateTime: "6:30PM",
         buttonText: "High",
-        sideMenu: Images.sideMenu
+        sideMenu: Images.sideMenu, 
+        priority: "high"
     },
     {
         img: Images.user2,
@@ -21,7 +22,8 @@ const Transactions = [
         dateProfile: "May 26, 2019",
         dateTime: "8:00AM",
         buttonText: "Low",
-        sideMenu: Images.sideMenu
+        sideMenu: Images.sideMenu,
+        priority: "low"
     },
     {
         img: Images.user3,
@@ -32,7 +34,8 @@ const Transactions = [
         dateProfile: "May 26, 2019",
         dateTime: "7:30 PM",
         buttonText: "High",
-        sideMenu: Images.sideMenu
+        sideMenu: Images.sideMenu,
+        priority: "high"
     },
     {
         img: Images.user4,
@@ -43,7 +46,8 @@ const Transactions = [
         dateProfile: "May 26, 2019",
         dateTime: "5:00PM",
         buttonText: "Normal",
-        sideMenu: Images.sideMenu
+        sideMenu: Images.sideMenu,
+        priority: "normal"
     },
     {
         img: Images.user5,
@@ -54,7 +58,8 @@ const Transactions = [
         dateProfile: "May 26, 2019",
         dateTime: "4:00PM",
         buttonText: "High",
-        sideMenu: Images.sideMenu
+        sideMenu: Images.sideMenu,
+        priority: "high"
     },
     {
         img: Images.user6,
@@ -65,7 +70,8 @@ const Transactions = [
         dateProfile: "May 26, 2019",
         dateTime: "4:00PM",
         buttonText: "Normal",
-        sideMenu: Images.sideMenu
+        sideMenu: Images.sideMenu,
+        priority: "normal"
     },
     {
         img: Images.user7,
@@ -76,7 +82,8 @@ const Transactions = [
         dateProfile: "May 26, 2019",
         dateTime: "11:30AM",
         buttonText: "Low",
-        sideMenu: Images.sideMenu
+        sideMenu: Images.sideMenu,
+        priority:"low"
     },
     {
         img: Images.user8,
@@ -87,7 +94,8 @@ const Transactions = [
         dateProfile: "May 26, 2019",
         dateTime: "6:30PM",
         buttonText: "Normal",
-        sideMenu: Images.sideMenu
+        sideMenu: Images.sideMenu,
+        priority:"normal"
     }
 ]
 

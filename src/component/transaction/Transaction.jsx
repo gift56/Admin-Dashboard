@@ -53,7 +53,7 @@ const Transaction = () => {
                                     <h4>{data.dateProfile}</h4>
                                     <p>{data.dateTime}</p>
                                 </div>
-                                <div className="priority">
+                                <div className={(data.priority == "normal") ? "priority normal" : (data.priority == "low" ? "priority low" : "priority high")}>
                                     <button className='btn High'>{data.buttonText}</button>
                                 </div>
                                 <div className="sideIcon">
@@ -63,7 +63,19 @@ const Transaction = () => {
                         ))}
                     </div>
                     <div className="rowPage">
-                        <p className="rowPage"></p>
+                        <p className="rowP">
+                            Rows per <br /> page:
+                        </p>
+                        <p className="dropdown">
+                            8 <img src={Images.dropDown} alt="" />
+                        </p>
+                        <p className="totalPages">
+                            1-8 of 1240
+                        </p>
+                        <div className="prevNexIcon">
+                            <img src={Images.left} alt="" />
+                            <img src={Images.right} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

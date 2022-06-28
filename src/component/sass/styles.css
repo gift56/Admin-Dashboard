@@ -52,8 +52,18 @@
   opacity: 0.8;
 }
 
-image {
+img {
   max-width: 100%;
+}
+
+.low button {
+  background-color: #ff9900 !important;
+  border: 1px solid #ff9900 !important;
+}
+
+.normal button {
+  background-color: #52b6ec !important;
+  border: 1px solid #52b6ec !important;
 }
 
 .navBar {
@@ -781,5 +791,51 @@ image {
   font-size: 12px;
   font-weight: 400;
   color: #c5c7cd;
+}
+
+.transactionArea .transactionTable .rowPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 10px 2rem;
+  gap: 3rem;
+}
+
+.transactionArea .transactionTable .rowPage .rowP,
+.transactionArea .transactionTable .rowPage .totalPages {
+  color: #9fa2b4;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.transactionArea .transactionTable .rowPage .dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.transactionArea .transactionTable .rowPage .prevNexIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.transactionArea .transactionTable .rowPage .prevNexIcon img:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */
