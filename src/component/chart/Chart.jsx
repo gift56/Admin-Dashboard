@@ -127,7 +127,7 @@ const Chart = () => {
                         </div>
                         <div className="infoItem">
                             <div className="check">
-                                <input type="checkbox" name="update" id="update" className='checkBox' checked/>
+                                <input type="checkbox" name="update" id="update" className='checkBox' defaultChecked/>
                                 <label htmlFor="update">Update ticket report</label>
                             </div>
                             <button className='btn DefaultBtn'>Default</button>

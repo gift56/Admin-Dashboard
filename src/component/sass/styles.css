@@ -163,6 +163,7 @@
 
 .header .images .headerImgs img {
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .header .images .profileArea {
@@ -174,6 +175,7 @@
           align-items: center;
   gap: 5px;
   position: relative;
+  cursor: pointer;
 }
 
 .header .images .profileArea::before {

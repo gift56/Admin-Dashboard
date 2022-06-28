@@ -69,6 +69,7 @@
             align-items: center;
             img {
                 margin-right: 20px;
+                cursor: pointer;
             }
         }
         .profileArea {
@@ -76,6 +77,7 @@
             align-items: center;
             gap: 5px;
             position: relative;
+            cursor: pointer;
             &::before {
                 content: "";
                 position: absolute;
