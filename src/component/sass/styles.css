@@ -520,4 +520,19 @@
   text-align: end;
   line-height: 20px;
 }
+
+.ticketArea .ticketCard .infoItems .infoItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid;
+}
+
+.ticketArea .ticketCard .infoItems .infoItem:last-child {
+  border: none;
+}
 /*# sourceMappingURL=styles.css.map */
