@@ -15,6 +15,16 @@ import Plus from '../images/plus.svg'
 import Minus from '../images/minus.svg'
 import NewProfile from '../images/NewProfile.svg'
 import checkBox from '../images/checkBox.svg'
+import sideMenu from '../images/sideMenu.svg'
+import sort from '../images/sort.svg'
+import user1 from '../images/user1.svg'
+import user2 from '../images/user2.svg'
+import user3 from '../images/user3.svg'
+import user4 from '../images/user4.svg'
+import user5 from '../images/user5.svg'
+import user6 from '../images/user6.svg'
+import user7 from '../images/user7.svg'
+import user8 from '../images/user8.svg'
 
 const Images =
 {
@@ -35,7 +45,17 @@ const Images =
     Plus,
     Minus,
     NewProfile,
-    checkBox
+    checkBox,
+    sideMenu,
+    sort,
+    user1,
+    user2,
+    user3,
+    user4,
+    user5,
+    user6,
+    user7,
+    user8
 }
 
 
