@@ -1,7 +1,8 @@
 import React from 'react'
-import Images from '../mapJs/Image'
 import Header from '../Header'
+import Images from '../mapJs/Image'
 import '../sass/styles.css'
+import Transactions from '../mapJs/Transaction'
 
 const Transaction = () => {
     return (
@@ -31,33 +32,38 @@ const Transaction = () => {
                     <div className="tableHeading">
                         <h3>Ticket details</h3>
                         <h3>Customer name</h3>
-                        <h3 style={{width:"8%"}}>Date</h3>
+                        <h3>Date</h3>
                         <h3>Priority</h3>
                     </div>
                     <div className="tableData">
-                        <div className="data">
-                            <div className="dataProfile">
-                                <img src={Images.user1} alt="" />
-                                <div className="userUpdate">
-                                    <h4>Contact Email not Linked</h4>
-                                    <p>Updated 1 day ago</p>
+                        {Transactions.map((data, index) => (
+                            <div className="data" key={index}>
+                                <div className="dataProfile">
+                                    <img src={data.img} alt="" />
+                                    <div className="userUpdate">
+                                        <h4>{data.profileText}</h4>
+                                        <p>{data.profileTime}</p>
+                                    </div>
+                                </div>
+                                <div className="customerName">
+                                    <h4>{data.customerName}</h4>
+                                    <p>{data.customerDetail}</p>
+                                </div>
+                                <div className="date">
+                                    <h4>{data.dateProfile}</h4>
+                                    <p>{data.dateTime}</p>
+                                </div>
+                                <div className="priority">
+                                    <button className='btn High'>{data.buttonText}</button>
+                                </div>
+                                <div className="sideIcon">
+                                    <img src={data.sideMenu} alt="" />
                                 </div>
                             </div>
-                            <div className="customerName">
-                                <h4>Tom Cruise</h4>
-                                <p>on 24.05.2019</p>
-                            </div>
-                            <div className="date">
-                                <h4>May 26, 2019</h4>
-                                <p>May 26, 2019</p>
-                            </div>
-                            <div className="priority">
-                                <button className='btn High'>High</button>
-                            </div>
-                            <div className="sideIcon">
-                                <img src={Images.sideMenu} alt="" />
-                            </div>
-                        </div>
+                        ))}
+                    </div>
+                    <div className="rowPage">
+                        <p className="rowPage"></p>
                     </div>
                 </div>
             </div>

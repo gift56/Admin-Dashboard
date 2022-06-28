@@ -711,6 +711,11 @@ image {
   border-bottom: 1px solid #dfe0eb;
 }
 
+.transactionArea .transactionTable .tableData .data:hover {
+  background-color: #f0f1f7;
+  cursor: pointer;
+}
+
 .transactionArea .transactionTable .tableData .data .dataProfile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -719,6 +724,7 @@ image {
       -ms-flex-align: center;
           align-items: center;
   gap: 1rem;
+  width: 23%;
 }
 
 .transactionArea .transactionTable .tableData .data .customerName {

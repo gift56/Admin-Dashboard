@@ -437,10 +437,15 @@
                 justify-content: space-between;
                 padding: 10px 2rem;
                 border-bottom: 1px solid $beforeBg;
+                &:hover{
+                    background-color: $defaultbg;
+                    cursor: pointer;
+                }
                 .dataProfile {
                     display: flex;
                     align-items: center;
                     gap: 1rem;
+                    width: 23%;
                 }
                 .customerName {
                     width: 16%;
