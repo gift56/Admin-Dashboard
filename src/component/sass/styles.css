@@ -688,11 +688,24 @@ image {
           justify-content: space-between;
   padding: 10px 2rem;
   padding-right: 9rem;
+  border-bottom: 2px solid #dfe0eb;
 }
 
 .transactionArea .transactionTable .tableHeading h3 {
   color: #9fa2b4;
   font-size: 16px;
   font-weight: 700;
+}
+
+.transactionArea .transactionTable .tableData .data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=styles.css.map */

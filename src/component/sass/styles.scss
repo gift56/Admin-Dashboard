@@ -423,10 +423,18 @@
             justify-content: space-between;
             padding: 10px 2rem;
             padding-right: 9rem;
+            border-bottom: 2px solid $beforeBg;
             h3 {
                 color: $navBg;
                 font-size: 16px;
                 font-weight: 700;
+            }
+        }
+        .tableData {
+            .data {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
             }
         }
     }
