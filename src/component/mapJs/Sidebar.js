@@ -1,4 +1,6 @@
+import React from "react";
 import Images from "./Image";
+import { FaCog, FaAward, FaUsers, FaLightbulb, FaTicketAlt, FaChartPie } from "react-icons/fa";
 
 const sidebarContent = [
     {
@@ -8,37 +10,36 @@ const sidebarContent = [
         },
         navOne: [
             {
-                image: Images.chartIcon,
                 text: "Charts",
-                route:"chart"
+                route: "chart",
+                Icon: <FaChartPie />
             },
             {
-                image: Images.referralIcon,
                 text: "Referrals",
-                route:"referral"
-
+                route: "referral",
+                Icon: <FaTicketAlt />
             },
             {
-                image: Images.transactionIcon,
                 text: "Transcations",
-                route:"transaction"
+                route: "transaction",
+                Icon: <FaLightbulb />
             },
             {
-                image: Images.payoutIcon,
                 text: "Payouts",
-                route:"payout"
+                route: "payout",
+                Icon: <FaUsers />
             }
         ],
         navTwo: [
             {
-                image: Images.settingIcon,
                 text: "Settings",
-                route:"/"
+                route: "/",
+                Icon: <FaCog />
             },
             {
-                image: Images.homeIcon,
                 text: "Home",
-                route:"/"
+                route: "/",
+                Icon: <FaAward />
             },
         ]
     }

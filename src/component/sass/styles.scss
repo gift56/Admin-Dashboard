@@ -58,6 +58,7 @@
         .navList,
         a {
             display: flex;
+            align-items: center;
             color: $sideColor;
             gap: 1rem;
             width: 100%;

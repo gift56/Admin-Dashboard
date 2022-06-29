@@ -22,7 +22,7 @@ const Sidebar = ({ isMobile, handleMobileMenu }) => {
                         {content.navOne.map((link, index) => (
                             <li className="navList" key={index}>
                                 <Link to={link.route}>
-                                    <img src={link.image} alt="" />
+                                    {link.Icon}
                                     <span>{link.text}</span>
                                 </Link>
                             </li>
@@ -32,7 +32,7 @@ const Sidebar = ({ isMobile, handleMobileMenu }) => {
                         {content.navTwo.map((secondlink, index) => (
                             <li className="navList" key={index}>
                                 <Link to={secondlink.route}>
-                                    <img src={secondlink.image} alt="" />
+                                    {secondlink.Icon}
                                     <span>{secondlink.text}</span>
                                 </Link>
                             </li>
