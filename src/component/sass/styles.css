@@ -382,6 +382,18 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 630px) {
+  .header .images .profileArea {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
 .header .images .profileArea::before {
   content: "";
   position: absolute;
@@ -406,6 +418,12 @@ body {
 @media screen and (max-width: 1210px) {
   .header .images .profileArea::before {
     left: 0px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .header .images .profileArea::before {
+    display: none;
   }
 }
 
@@ -695,6 +713,13 @@ body {
   padding: 2rem;
 }
 
+@media screen and (max-width: 700px) {
+  .graphArea .graph {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
 .graphArea .graph .graphText h3 {
   color: #252733;
   font-size: 19px;
@@ -719,6 +744,18 @@ body {
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 1440px) {
+  .graphArea .graph .graphCodination {
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .graphArea .graph .graphCodination {
+    margin-right: 0;
+  }
+}
+
 .graphArea .graph .graphCodination p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -738,6 +775,13 @@ body {
       flex-basis: 30%;
   width: 100%;
   border-left: 1px solid #dfe0eb;
+}
+
+@media screen and (max-width: 700px) {
+  .graphArea .graphRates {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
 }
 
 .graphArea .graphRates .rates {

@@ -112,6 +112,10 @@
             gap: 5px;
             position: relative;
             cursor: pointer;
+            @media screen and (max-width: 630px) {
+                flex-direction: column-reverse;
+                align-items: flex-end;
+            }
             &::before {
                 content: "";
                 position: absolute;
@@ -127,6 +131,9 @@
                 }
                 @media screen and (max-width: 1210px) {
                     left: 0px;
+                }
+                @media screen and (max-width: 630px) {
+                    display: none;
                 }
             }
             p {
@@ -301,6 +308,9 @@
     .graph {
         flex-basis: 70%;
         padding: 2rem;
+        @media screen and (max-width: 700px) {
+            flex-basis: 100%;
+        }
         .graphText {
             h3 {
                 color: $headerColor;
@@ -318,6 +328,12 @@
             justify-content: flex-end;
             margin-right: 120px;
             margin-bottom: 30px;
+            @media screen and (max-width: 1440px) {
+                margin-right: 1rem;
+            }
+            @media screen and (max-width: 730px) {
+                margin-right: 0;
+            }
             p {
                 display: flex;
                 align-items: baseline;
@@ -333,6 +349,9 @@
         flex-basis: 30%;
         width: 100%;
         border-left: 1px solid $beforeBg;
+        @media screen and (max-width: 700px) {
+            flex-basis: 100%;
+        }
         .rates {
             display: flex;
             flex-direction: column;
