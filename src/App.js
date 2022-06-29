@@ -6,7 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div class="App">
+    <div className="App">
       <BrowserRouter>
         <Sidebar />
         <Pages />

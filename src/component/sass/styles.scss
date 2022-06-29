@@ -463,7 +463,7 @@
                 .priority {
                     width: 10%;
                     display: flex;
-                    justify-content: end;
+                    justify-content: flex-end;
                     align-items: center;
                     button {
                         background-color: $HighColor;

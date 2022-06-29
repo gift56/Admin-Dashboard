@@ -53,7 +53,7 @@ const Transaction = () => {
                                     <h4>{data.dateProfile}</h4>
                                     <p>{data.dateTime}</p>
                                 </div>
-                                <div className={(data.priority == "normal") ? "priority normal" : (data.priority == "low" ? "priority low" : "priority high")}>
+                                <div className={(data.priority === "normal") ? "priority normal" : (data.priority === "low" ? "priority low" : "priority high")}>
                                     <button className='btn High'>{data.buttonText}</button>
                                 </div>
                                 <div className="sideIcon">
