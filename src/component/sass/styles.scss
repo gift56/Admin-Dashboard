@@ -589,10 +589,23 @@
             padding: 10px 2rem;
             padding-right: 120px;
             border-bottom: 2px solid $beforeBg;
+            @media screen and (max-width: 737px) {
+                padding-right: 40px;
+            }
+            @media screen and (max-width: 560px) {
+                padding-right: 30px;
+            }
+            @media screen and (max-width: 480px) {
+                padding-right: 0;
+                gap: 20px;
+            }
             h3 {
                 color: $navBg;
                 font-size: 16px;
                 font-weight: 700;
+                @media screen and (max-width: 980px) {
+                    font-size: 14px;
+                }
             }
         }
         .tableData {
@@ -606,22 +619,43 @@
                     background-color: $defaultbg;
                     cursor: pointer;
                 }
+                @media screen and (max-width: 658px) {
+                    padding: 10px 10px;
+                }
                 .dataProfile {
                     display: flex;
                     align-items: center;
                     gap: 1rem;
                     width: 23%;
+                    @media screen and (max-width: 737px) {
+                        width: 30%;
+                    }
+                    @media screen and (max-width: 487px) {
+                        flex-direction: column;
+                    }
                 }
                 .customerName {
                     width: 16%;
                     padding-left: 1.5rem;
                     text-align: left;
+                    @media screen and (max-width: 737px) {
+                        padding-left: 0;
+                    }
+                    @media screen and (max-width: 658px) {
+                        width: fit-content;
+                    }
                 }
                 .date {
                     width: 23%;
                     text-align: center;
                     p {
                         transform: translateX(-5px);
+                    }
+                    @media screen and (max-width: 737px) {
+                        width: 30%;
+                    }
+                    @media screen and (max-width: 658px) {
+                        width: fit-content;
                     }
                 }
                 .priority {
@@ -632,6 +666,9 @@
                     button {
                         background-color: $HighColor;
                         border: 1px solid $HighColor;
+                    }
+                    @media screen and (max-width: 658px) {
+                        width: unset;
                     }
                 }
                 .sideIcon {
@@ -645,11 +682,21 @@
                         font-size: 14px;
                         font-weight: 700;
                         color: $headerColor;
+                        @media screen and (max-width: 980px) {
+                            font-size: 12px;
+                        }
+                        @media screen and (max-width: 737px) {
+                            font-size: 11px;
+                            width: 100%;
+                        }
                     }
                     p {
                         font-size: 12px;
                         font-weight: 400;
                         color: $h4Color;
+                        @media screen and (max-width: 980px) {
+                            font-size: 10px;
+                        }
                     }
                 }
             }

@@ -1167,10 +1167,35 @@ body {
   border-bottom: 2px solid #dfe0eb;
 }
 
+@media screen and (max-width: 737px) {
+  .transactionArea .transactionTable .tableHeading {
+    padding-right: 40px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .transactionArea .transactionTable .tableHeading {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .transactionArea .transactionTable .tableHeading {
+    padding-right: 0;
+    gap: 20px;
+  }
+}
+
 .transactionArea .transactionTable .tableHeading h3 {
   color: #9fa2b4;
   font-size: 16px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 980px) {
+  .transactionArea .transactionTable .tableHeading h3 {
+    font-size: 14px;
+  }
 }
 
 .transactionArea .transactionTable .tableData .data {
@@ -1192,6 +1217,12 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 658px) {
+  .transactionArea .transactionTable .tableData .data {
+    padding: 10px 10px;
+  }
+}
+
 .transactionArea .transactionTable .tableData .data .dataProfile {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1203,10 +1234,39 @@ body {
   width: 23%;
 }
 
+@media screen and (max-width: 737px) {
+  .transactionArea .transactionTable .tableData .data .dataProfile {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 487px) {
+  .transactionArea .transactionTable .tableData .data .dataProfile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .transactionArea .transactionTable .tableData .data .customerName {
   width: 16%;
   padding-left: 1.5rem;
   text-align: left;
+}
+
+@media screen and (max-width: 737px) {
+  .transactionArea .transactionTable .tableData .data .customerName {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .transactionArea .transactionTable .tableData .data .customerName {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
 
 .transactionArea .transactionTable .tableData .data .date {
@@ -1217,6 +1277,20 @@ body {
 .transactionArea .transactionTable .tableData .data .date p {
   -webkit-transform: translateX(-5px);
           transform: translateX(-5px);
+}
+
+@media screen and (max-width: 737px) {
+  .transactionArea .transactionTable .tableData .data .date {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 658px) {
+  .transactionArea .transactionTable .tableData .data .date {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
 }
 
 .transactionArea .transactionTable .tableData .data .priority {
@@ -1237,6 +1311,12 @@ body {
   border: 1px solid #f12b2c;
 }
 
+@media screen and (max-width: 658px) {
+  .transactionArea .transactionTable .tableData .data .priority {
+    width: unset;
+  }
+}
+
 .transactionArea .transactionTable .tableData .data .sideIcon {
   cursor: pointer;
 }
@@ -1250,6 +1330,25 @@ body {
   color: #252733;
 }
 
+@media screen and (max-width: 980px) {
+  .transactionArea .transactionTable .tableData .data .userUpdate h4,
+  .transactionArea .transactionTable .tableData .data .customerName h4,
+  .transactionArea .transactionTable .tableData .data .date h4,
+  .transactionArea .transactionTable .tableData .data .priority h4 {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .transactionArea .transactionTable .tableData .data .userUpdate h4,
+  .transactionArea .transactionTable .tableData .data .customerName h4,
+  .transactionArea .transactionTable .tableData .data .date h4,
+  .transactionArea .transactionTable .tableData .data .priority h4 {
+    font-size: 11px;
+    width: 100%;
+  }
+}
+
 .transactionArea .transactionTable .tableData .data .userUpdate p,
 .transactionArea .transactionTable .tableData .data .customerName p,
 .transactionArea .transactionTable .tableData .data .date p,
@@ -1257,6 +1356,15 @@ body {
   font-size: 12px;
   font-weight: 400;
   color: #c5c7cd;
+}
+
+@media screen and (max-width: 980px) {
+  .transactionArea .transactionTable .tableData .data .userUpdate p,
+  .transactionArea .transactionTable .tableData .data .customerName p,
+  .transactionArea .transactionTable .tableData .data .date p,
+  .transactionArea .transactionTable .tableData .data .priority p {
+    font-size: 10px;
+  }
 }
 
 .transactionArea .transactionTable .rowPage {
