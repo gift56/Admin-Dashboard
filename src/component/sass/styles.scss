@@ -55,6 +55,9 @@
         row-gap: 10px;
         width: 252px;
         transform: translateX(-18px);
+        &:hover {
+            color: $textWhite;
+        }
         .navList,
         a {
             display: flex;
@@ -210,6 +213,8 @@
                     border-radius: 4px;
                     padding: 0 10px;
                     height: 40px;
+                    font-size: 15px;
+                    font-weight: 600;
                     &::placeholder {
                         color: $black;
                         font-size: 15px;

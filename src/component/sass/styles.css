@@ -294,6 +294,10 @@ body {
           transform: translateX(-18px);
 }
 
+.navBar .navItems:hover {
+  color: white;
+}
+
 .navBar .navItems .navList,
 .navBar .navItems a {
   display: -webkit-box;
@@ -550,6 +554,8 @@ body {
   border-radius: 4px;
   padding: 0 10px;
   height: 40px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .editCard .editProfile .form .formControl input::-webkit-input-placeholder {
