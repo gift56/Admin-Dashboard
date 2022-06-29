@@ -6,6 +6,9 @@
 }
 .paddingCon {
     padding: 10px 28px;
+    @media screen and (max-width: 380px) {
+     padding: 10px 10px;
+    }
 }
 .Card {
     background-color: $textWhite;

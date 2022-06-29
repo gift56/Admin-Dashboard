@@ -366,23 +366,52 @@
                 font-size: 16px;
                 font-weight: 700;
                 color: $navBg;
+                @media screen and (max-width: 380px) {
+                    font-size: 14px;
+                    text-align: center;
+                }
             }
             p {
                 color: $headerColor;
                 font-size: 24px;
                 font-weight: 700;
+                @media screen and (max-width: 380px) {
+                    font-size: 20px;
+                }
             }
         }
     }
 }
 .ticketArea {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 20px;
+    width: 100%;
+    @media screen and (max-width: 1112px) {
+        justify-content: center;
+        gap: 1rem;
+    }
     .ticketCard {
         width: 546px;
         height: 350px;
         padding: 0;
+        @media screen and (max-width: 1490px) {
+            width: 490px;
+        }
+        @media screen and (max-width: 1325px) {
+            width: 440px;
+        }
+        @media screen and (max-width: 1325px) {
+            width: 440px;
+        }
+        @media screen and (max-width: 1220px) {
+            width: 400px;
+        }
+        @media screen and (max-width: 522px) {
+            width: 100%;
+            height: fit-content;
+        }
         .ticketHeading {
             padding: 2rem;
             display: flex;
@@ -391,11 +420,17 @@
                 .ticketTitle {
                     color: $headerColor;
                     margin-bottom: 3px;
+                    @media screen and (max-width: 445px) {
+                        font-size: 14px;
+                    }
                 }
                 p {
                     color: $navBg;
                     font-size: 12px;
                     font-weight: 400;
+                    @media screen and (max-width: 445px) {
+                        font-size: 10px;
+                    }
                     span {
                         color: $headerColor;
                         font-weight: 600;
@@ -407,6 +442,9 @@
                 font-weight: 600;
                 text-align: end;
                 line-height: 20px;
+                @media screen and (max-width: 445px) {
+                    font-size: 14px;
+                }
             }
         }
         .infoItems {
@@ -422,11 +460,17 @@
                 h4 {
                     font-size: 16px;
                     color: $headerColor;
+                    @media screen and (max-width: 445px) {
+                        font-size: 12px;
+                    }
                 }
                 p {
                     color: $navBg;
                     font-size: 16px;
                     font-weight: 700;
+                    @media screen and (max-width: 445px) {
+                        font-size: 12px;
+                    }
                 }
             }
         }
@@ -434,6 +478,9 @@
             .infoItem {
                 h4 {
                     color: $h4Color;
+                    @media screen and (max-width: 445px) {
+                        font-size: 14px;
+                    }
                 }
                 .check {
                     display: flex;
@@ -443,6 +490,15 @@
                         cursor: pointer;
                         font-size: 14px;
                         font-weight: 700;
+                        @media screen and (max-width: 445px) {
+                            font-size: 12px;
+                        }
+                        @media screen and (max-width: 380px) {
+                            font-size: 10px;
+                        }
+                    }
+                    @media screen and (max-width: 380px) {
+                        gap: 5px;
                     }
                     .checkBox {
                         border-radius: 50%;
@@ -466,15 +522,33 @@
                 .urgentBtn {
                     background-color: $urgentBg;
                     border: 1px solid $urgentBg;
+                    @media screen and (max-width: 445px) {
+                        font-size: 12px;
+                    }
+                    @media screen and (max-width: 380px) {
+                        font-size: 8px;
+                    }
                 }
                 .NewBtn {
                     background-color: $btnNew;
                     border: 1px solid $btnNew;
+                    @media screen and (max-width: 445px) {
+                        font-size: 12px;
+                    }
+                    @media screen and (max-width: 380px) {
+                        font-size: 8px;
+                    }
                 }
                 .DefaultBtn {
                     background-color: $defaultbg;
                     border: 1px solid $defaultbg;
                     color: $navBg;
+                    @media screen and (max-width: 445px) {
+                        font-size: 12px;
+                    }
+                    @media screen and (max-width: 380px) {
+                        font-size: 8px;
+                    }
                 }
             }
         }
