@@ -1,3 +1,5 @@
+@import "./varibles";
+
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +11,17 @@
 .App {
     display: grid;
     grid-template-columns: 255px 1fr;
+    @media screen and (max-width: 998px) {
+        grid-template-columns: 64px 1fr;
+    }
+}
+.openBars {
+    display: grid;
+    @media screen and (max-width: 998px) {
+        grid-template-columns: 255px 1fr;
+    }
+    overflow-x: hidden;
+}
+.sidebar {
+    background-color: $sidebarBG;
 }

@@ -16,6 +16,30 @@
       grid-template-columns: 255px 1fr;
 }
 
+@media screen and (max-width: 998px) {
+  .App {
+    -ms-grid-columns: 64px 1fr;
+        grid-template-columns: 64px 1fr;
+  }
+}
+
+.openBars {
+  display: -ms-grid;
+  display: grid;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 998px) {
+  .openBars {
+    -ms-grid-columns: 255px 1fr;
+        grid-template-columns: 255px 1fr;
+  }
+}
+
+.sidebar {
+  background-color: #363740;
+}
+
 .flexArea {
   -webkit-box-flex: 5;
       -ms-flex: 5;
@@ -66,6 +90,113 @@ img {
   border: 1px solid #29cc97 !important;
 }
 
+body {
+  background-color: #363740;
+}
+
+.open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 30px;
+  width: 254px;
+  min-height: 100%;
+  background: #363740;
+  padding: 20px 20px;
+  left: 0 !important;
+}
+
+.open .bars {
+  position: fixed;
+  left: 300px !important;
+  top: 50px !important;
+}
+
+.open .bars svg {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-size: 30px;
+  color: #a4a6b3;
+}
+
+@media screen and (max-width: 998px) {
+  .open .bars svg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.open .navLogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+  height: 8vh;
+  cursor: pointer;
+  background: #363740;
+}
+
+.open .navLogo h4 {
+  font-size: 20px;
+  color: #a4a6b3;
+}
+
+.open .navItems {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+  width: 252px;
+  -webkit-transform: translateX(-18px);
+          transform: translateX(-18px);
+  background: #363740;
+}
+
+.open .navItems .navList,
+.open .navItems a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #a4a6b3;
+  gap: 1rem;
+  width: 100%;
+  padding: 10px 0;
+  padding-left: 20px;
+}
+
+.open .navItems .navList:hover,
+.open .navItems a:hover {
+  background-color: #9fa2b4;
+  color: white;
+  cursor: pointer;
+}
+
+.open .secondnavItems {
+  margin-top: 30px;
+  background: #363740;
+}
+
 .navBar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -79,6 +210,50 @@ img {
   min-height: 100%;
   background: #363740;
   padding: 20px 20px;
+  position: fixed;
+  left: 0;
+}
+
+@media screen and (max-width: 998px) {
+  .navBar {
+    left: -100%;
+  }
+}
+
+.navBar .bars {
+  position: fixed;
+  left: 300px;
+  top: 50px;
+}
+
+@media screen and (max-width: 998px) {
+  .navBar .bars {
+    left: 18px;
+  }
+}
+
+.navBar .bars svg {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-size: 30px;
+  color: #a4a6b3;
+}
+
+@media screen and (max-width: 998px) {
+  .navBar .bars svg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .navBar .navLogo {
