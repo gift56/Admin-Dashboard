@@ -26,6 +26,8 @@
 .openBars {
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 255px 1fr;
+      grid-template-columns: 255px 1fr;
   overflow-x: hidden;
 }
 
@@ -121,9 +123,14 @@ body {
   position: fixed;
   left: 277px !important;
   top: 50px !important;
-  background-color: #363740;
   padding: 12px;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 998px) {
+  .open .bars {
+    background-color: #363740;
+  }
 }
 
 .open .bars svg {
@@ -188,6 +195,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #a4a6b3;
   gap: 1rem;
   width: 100%;
@@ -471,6 +481,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 620px;
+  width: 100%;
 }
 
 .editCard .editProfile {

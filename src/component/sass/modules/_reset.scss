@@ -17,6 +17,7 @@
 }
 .openBars {
     display: grid;
+    grid-template-columns: 255px 1fr;
     @media screen and (max-width: 998px) {
         grid-template-columns: 255px 1fr;
     }

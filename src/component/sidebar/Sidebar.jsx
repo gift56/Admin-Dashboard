@@ -20,7 +20,7 @@ const Sidebar = ({ isMobile, handleMobileMenu }) => {
                     </span>
                     <ul className='navItems'>
                         {content.navOne.map((link, index) => (
-                            <li className="navList" key={index}>
+                            <li className="navList" key={index} onClick={handleMobileMenu}>
                                 <Link to={link.route}>
                                     {link.Icon}
                                     <span>{link.text}</span>
@@ -30,7 +30,7 @@ const Sidebar = ({ isMobile, handleMobileMenu }) => {
                     </ul>
                     <ul className="secondnavItems navItems" >
                         {content.navTwo.map((secondlink, index) => (
-                            <li className="navList" key={index}>
+                            <li className="navList" key={index} onClick={handleMobileMenu}>
                                 <Link to={secondlink.route}>
                                     {secondlink.Icon}
                                     <span>{secondlink.text}</span>
@@ -43,5 +43,4 @@ const Sidebar = ({ isMobile, handleMobileMenu }) => {
         </nav>
     )
 }
-
 export default Sidebar
