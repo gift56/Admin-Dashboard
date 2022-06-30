@@ -60,8 +60,11 @@ body {
 
     .bars {
         position: fixed;
-        left: 300px !important;
+        left: 277px !important;
         top: 50px !important;
+        background-color: $sidebarBG;
+        padding: 12px;
+        border-radius: 8px;
        
         svg {
             display: none;

@@ -119,8 +119,11 @@ body {
 
 .open .bars {
   position: fixed;
-  left: 300px !important;
+  left: 277px !important;
   top: 50px !important;
+  background-color: #363740;
+  padding: 12px;
+  border-radius: 8px;
 }
 
 .open .bars svg {
